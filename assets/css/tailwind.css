@@ -2,17 +2,17 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.btn:focus{
+.btn:focus {
 
 	outline: 0;
 
 }
 
-.scene{
+.scene {
 	background-color: '#220022';
 }
 
-.flexcontainer{
+.flexcontainer {
 
 	@apply flex;
 	@apply items-center;
@@ -20,7 +20,7 @@
 
 }
 
-.resizable{
+.resizable {
 
 	resize: horizontal;
 	@apply overflow-auto;
@@ -37,12 +37,12 @@
 
 }
 
-	/* Hide scrollbar for Chrome, Safari and Opera */
-	.hidescrollbar::-webkit-scrollbar {
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hidescrollbar::-webkit-scrollbar {
 
-		display: none;
+	display: none;
 
-	}
+}
 
 /* customize scrollbar */
 ::-webkit-scrollbar {
@@ -52,21 +52,21 @@
 
 }
 
-	::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 
-		background: rgba(86, 182, 214, 0.347);
+	background: rgba(86, 182, 214, 0.347);
 
-	}
+}
 
-	::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 
-		background: rgba(57, 36, 36, 0.925);
-		border-radius: 10px;
+	background: rgba(57, 36, 36, 0.925);
+	border-radius: 10px;
 
-	}
+}
 
-		::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
 
-			background: rgb(214, 86, 144);
+	background: rgb(214, 86, 144);
 
-		}
+}
